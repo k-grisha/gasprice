@@ -14,17 +14,17 @@ spring:
       client:
         instance:
           prefer-ip: true
-        url: http://192.168.31.51:8100
+        url: http://161.97.103.17:8100
   datasource:
-    url: jdbc:postgresql://192.168.31.51:5432/gasprice
+    url: jdbc:postgresql://161.97.103.17:5432/gasprice
     driverClassName: org.postgresql.Driver
     username: postgres
-    password: 123456
+    password: 1808grshsrg
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: validate
-    show-sql: true
+#    show-sql: true
 #    properties:
 #      hibernate:
 #        format_sql: true
